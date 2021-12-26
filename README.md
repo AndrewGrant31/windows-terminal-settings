@@ -15,12 +15,14 @@ To do this, open either a powershell window or a command line window, as an admi
 
 After completing this, you can navigate to C:\Qt\6.2.2\msvc2019_64\bin, open qtenv2.bat and amend the file to read:
 
-@echo off\n
-REM echo Setting up environment for Qt usage...\n
-set PATH=C:\Qt\6.2.2\msvc2019_64\bin;%PATH%\n
-REM cd /D C:\Qt\6.2.2\msvc2019_64\n
-cd /D %USERPROFILE%\Projects\n
-REM echo Remember to call vcvarsall.bat to complete environment setup!\n
+@echo off  
+REM echo Setting up environment for Qt usage...  
+set PATH=C:\Qt\6.2.2\msvc2019_64\bin;%PATH%  
+REM cd /D C:\Qt\6.2.2\msvc2019_64  
+cd /D %USERPROFILE%\Projects  
+REM echo Remember to call vcvarsall.bat to complete environment setup!  
+
+You can do the same for the mingw qtenv2.bat file located in the mingw_xx folder. 
 
 Keep the lines marked with REM; deleting them does, occasionally, cause problems. 
 
