@@ -23,3 +23,5 @@ cd /D %USERPROFILE%\Projects
 REM echo Remember to call vcvarsall.bat to complete environment setup!
 
 Keep the lines marked with REM; deleting them does, occasionally, cause problems. 
+
+You can, of course, change the colorScheme to suite your own needs.
