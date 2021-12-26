@@ -57,19 +57,19 @@
             {
                 "colorScheme": "Solarized Light",
                 "commandline": "cmd.exe /A /Q /K C:/Qt/6.2.2/mingw_64/bin/qtenv2.bat",
-                "guid": "{cb29f53f-06eb-49aa-be68-0e2093a0a4c4}",
-                "icon": "%USERPROFILE%/Pictures/icons/qt-logo_12x16.png",
+                "guid": "{Requires new guid}",
+                "icon": "path to icon",
                 "name": "Qt6.2 Mingw_64",
-                "startingDirectory": "%USERPROFILE%/Projects",
+                "startingDirectory": "path to source code folder",
                 "tabTitle": "Qt6 - MinGW64"
             },
             {
                 "colorScheme": "Solarized Dark",
                 "commandline": "cmd.exe /A /Q /K C:/Qt/6.2.2/msvc2019_64/bin/qtenv2.bat",
-                "guid": "{f5341d89-2e18-424c-aaf8-6a0cec7d7d7b}",
-                "icon": "%USERPROFILE%/Pictures/icons/vs2019_16x16.png",
+                "guid": "{Requires new guid}",
+                "icon": "path to icon",
                 "name": "Qt6.2 MSVC",
-                "startingDirectory": "%USERPROFILE%/Projects",
+                "startingDirectory": "path to source code folder",
                 "tabTitle": "Qt6 MSVC"
             },
             {
@@ -80,10 +80,10 @@
                 {
                     "face": "Cascadia Code"
                 },
-                "guid": "{3be78a7c-acd4-42a6-acfb-1799b37c72f7}",
-                "icon": "C:/msys64/msys2.ico",
+                "guid": "{Requires new guid}",
+                "icon": "path to icon",
                 "name": "MSYS2",
-                "startingDirectory": "%UserProfile%/Projects",
+                "startingDirectory": "path to source code folder",
                 "tabTitle": "MSYS2"
             }
         ]
