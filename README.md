@@ -27,5 +27,3 @@ You can do the same for the mingw qtenv2.bat file located in the mingw_xx folder
 Keep the lines marked with REM; deleting them does, occasionally, cause problems. 
 
 You can, of course, change the colorScheme to suite your own needs.
-
-You will, also, need to change the name of the json code file to settings.json
