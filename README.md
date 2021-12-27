@@ -1,5 +1,5 @@
 # windows-terminal-settings.json
-Setting (json) file for Windows Terminal
+settings.json file for Windows Terminal
 
 Please, do remember to insert your own guid's into each of the relevant settings.
 The guids' used on my machine have been stripped from the setting file and replaced with the text "Requires new guid".
@@ -27,3 +27,5 @@ You can do the same for the mingw qtenv2.bat file located in the mingw_xx folder
 Keep the lines marked with REM; deleting them does, occasionally, cause problems. 
 
 You can, of course, change the colorScheme to suite your own needs.
+
+You will, also, need to change the name of the json code file to settings.json
