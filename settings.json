@@ -57,19 +57,19 @@
             {
                 "colorScheme": "Solarized Light",
                 "commandline": "cmd.exe /A /Q /K C:/Qt/6.2.2/mingw_64/bin/qtenv2.bat",
-                "guid": "{Requires new guid}",
-                "icon": "path to icon",
+                "guid": "{cb29f53f-06eb-49aa-be68-0e2093a0a4c4}",
+                "icon": "%USERPROFILE%/Pictures/icons/qt-logo_12x16.png",
                 "name": "Qt6.2 Mingw_64",
-                "startingDirectory": "path to source code folder",
+                "startingDirectory": "%USERPROFILE%/Projects",
                 "tabTitle": "Qt6 - MinGW64"
             },
             {
                 "colorScheme": "Solarized Dark",
                 "commandline": "cmd.exe /A /Q /K C:/Qt/6.2.2/msvc2019_64/bin/qtenv2.bat",
-                "guid": "{Requires new guid}",
-                "icon": "path to icon",
+                "guid": "{f5341d89-2e18-424c-aaf8-6a0cec7d7d7b}",
+                "icon": "%USERPROFILE%/Pictures/icons/vs2019_16x16.png",
                 "name": "Qt6.2 MSVC",
-                "startingDirectory": "path to source code folder",
+                "startingDirectory": "%USERPROFILE%/Projects",
                 "tabTitle": "Qt6 MSVC"
             },
             {
@@ -80,11 +80,29 @@
                 {
                     "face": "Cascadia Code"
                 },
-                "guid": "{Requires new guid}",
-                "icon": "path to icon",
+                "guid": "{3be78a7c-acd4-42a6-acfb-1799b37c72f7}",
+                "icon": "C:/msys64/msys2.ico",
                 "name": "MSYS2",
-                "startingDirectory": "path to source code folder",
+                "startingDirectory": "%UserProfile%/Projects",
                 "tabTitle": "MSYS2"
+            },
+            {
+                "guid": "{15e86d21-1955-4a73-925d-8e4b172c89e7}", 
+                "name": "Visual Studio 2002 Developer Prompt",
+                "commandline": "%comspec% /k \"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/VsDevCmd.bat\"",
+                "startingDirectory": "%USERPROFILE%/source/repos",
+                "tabTitle": "VS 2022 CMD",
+                "colorScheme": "Campbell",
+                "icon": "%USERPROFILE%/Pictures/icons/commandline_16x16.png"
+            },
+            {
+                "guid": "{1352c8a1-6eaf-4a83-9997-191603cb86d0}",
+                "name": "VS 2022 PowerShell",
+                "commandline": "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/powershell.exe -noe -c \"&{Import-Module \"\"\"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell 65be7d85}\"",
+                "startingDirectory": "%USERPROFILE%/source/repos",
+                "tabTitle": "VS 2022 PowerShell",
+                "colorScheme": "Campbell Powershell",
+                "icon": "%USERPROFILE%/Pictures/icons/powershell_16x11.png"
             }
         ]
     },
