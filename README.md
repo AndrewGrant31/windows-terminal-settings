@@ -1,12 +1,12 @@
 # windows-terminal-settings.json
 settings.json file for Windows Terminal
 
-Please, do remember to insert your own guid's into each of the guid settings.
-The guids' used on my machine have been stripped from the setting file and replaced with the text "Requires new guid".
-Use a pwoershell window and issue the command new-guid. 
+Please, do remember to insert your own guid's into each of the guid settings - marked with the text: your-guid .
+The guids' used on my machine have been stripped from the setting file and replaced with the text "your-guid".
+Use a PowerShell window and issue the command new-guid. 
 Copy the new guid and paste into the relevant section for each of the settings. You have to do this for each section.
 
-For the icons, copy the icons downlaoded from this repository to a relevant folder in your %USERPROFILE% and copy the path to the folder and the relevant icon into the section marked "path to icon".
+For the icons, copy the icons downloaded from this repository to a relevant folder in your %USERPROFILE% and copy the path to the folder and the relevant icon into the section marked "path to icon".
 
 Finally, find and copy the path to your source code folder (it will be in the location bar in Windows Explorer) and paste it into the startingDirectory command, marked with the text "path to source code folder"
 
@@ -26,4 +26,7 @@ You can do the same for the mingw qtenv2.bat file located in the mingw_xx folder
 
 Keep the lines marked with REM; deleting them does, occasionally, cause problems. 
 
-You can, of course, change the colorScheme to suite your own needs.
+You can, of course, change the colorScheme to suite your own wishes.
+
+## License
+Use this file as you wish, there is no guarantee of merchantability, fitness and comes with no warranty at all. 
