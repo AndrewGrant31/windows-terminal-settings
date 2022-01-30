@@ -1,7 +1,7 @@
 # windows-terminal-settings.json
 settings.json file for Windows Terminal
 
-Please, do remember to insert your own guid's into each of the relevant settings.
+Please, do remember to insert your own guid's into each of the guid settings.
 The guids' used on my machine have been stripped from the setting file and replaced with the text "Requires new guid".
 Use a pwoershell window and issue the command new-guid. 
 Copy the new guid and paste into the relevant section for each of the settings. You have to do this for each section.
