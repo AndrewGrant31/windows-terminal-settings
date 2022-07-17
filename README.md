@@ -13,12 +13,14 @@ Finally, find and copy the path to your source code folder (it will be in the lo
 If you are using QT MSVC, then it is a good idea to run vcvarsall.bat
 To do this, open either a powershell window or a command line window, as an administrator, and navigate to C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build (for Visual Studio 2022 Community Edition), then run vcvars64.bat by entering the command ./vcvars64.bat and pressing enter. 
 
-After completing this, you can navigate to C:\Qt\6.2.2\msvc2019_64\bin, open qtenv2.bat and amend the file to read:
+The [the version number] is the folder immediately under the Qt folder. It will follow the convention of Version_Major.Version_Minor.Version_Patch
+
+After completing this, you can navigate to C:\Qt\[the version number]\msvc2019_64\bin, open qtenv2.bat and amend the file to read:
 
 @echo off  
 REM echo Setting up environment for Qt usage...  
-set PATH=C:\Qt\6.2.2\msvc2019_64\bin;%PATH%  
-REM cd /D C:\Qt\6.2.2\msvc2019_64  
+set PATH=C:\Qt\[the version number]\msvc2019_64\bin;%PATH%  
+REM cd /D C:\Qt\[the version number]\msvc2019_64  
 cd /D %USERPROFILE%\Projects  
 REM echo Remember to call vcvarsall.bat to complete environment setup!  
 
