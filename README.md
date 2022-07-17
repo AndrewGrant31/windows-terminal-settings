@@ -21,12 +21,19 @@ After completing this, you can navigate to C:\Qt\[the version number]\msvc2019_6
 REM echo Setting up environment for Qt usage...  
 set PATH=C:\Qt\[the version number]\msvc2019_64\bin;%PATH%  
 REM cd /D C:\Qt\[the version number]\msvc2019_64  
-cd /D %USERPROFILE%\Projects  
+cd /D %USERPROFILE%\[The folder where you write your projects]  
 REM echo Remember to call vcvarsall.bat to complete environment setup!  
 
 You can do the same for the mingw qtenv2.bat file located in the mingw_xx folder. 
 
 Keep the lines marked with REM; deleting them does, occasionally, cause problems. 
+
+If you have Visual Studio 2019 or 2022 installed, run the vcvarsall.bat file. 
+To run the vcvarsall.bat file, use the terminal or command line, as Administrator, navigate to C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build (if you are using the standard install path for Visual Studio 2019/2022) and type at the prompt:
+.\vcvarsall.bat and then choose your platform type from the list provided and retype amended the correct platform type. 
+For example, on my current computer I type:
+.\vcvarsall.bat amd64 
+press enter and let it do it's thing.
 
 You can, of course, change the colorScheme to suite your own wishes.
 
