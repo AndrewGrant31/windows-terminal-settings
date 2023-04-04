@@ -3,6 +3,7 @@ QT Creator comes with an excellent terminal, but it is another terminal...
 So, why not use the Windows Terminal to display the QT Creator terminal?  
 To put Qt Creator terminal into Windows Terminal, locate the QT Creator section in the settings.json file - hint: it's the third element down... :) 
 copy the code and place it inot the settings json file in your Windows Terminal. Then follow these simple instructions...  
+***You can find the relevant json object in the file: qtcreator_settings.txt file***  
 
 ## Start here
 Settings.json file for Windows Terminal
