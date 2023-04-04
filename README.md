@@ -21,7 +21,7 @@ After completing this, you can navigate to C:\Qt\[the version number]\msvc2019_6
 REM echo Setting up environment for Qt usage...  
 set PATH=C:\Qt\[the version number]\msvc2019_64\bin;%PATH%  
 REM cd /D C:\Qt\[the version number]\msvc2019_64  
-cd /D %USERPROFILE%\[The folder where you write your projects]  
+cd /D %USERPROFILE%\\[The folder where you write your projects]  
 REM echo Remember to call vcvarsall.bat to complete environment setup!  
 
 You can do the same for the mingw qtenv2.bat file located in the mingw_xx folder. 
